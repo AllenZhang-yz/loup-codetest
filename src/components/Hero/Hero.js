@@ -1,5 +1,5 @@
-import React from "react";
-import "./Hero.scss";
+import React from 'react';
+import './Hero.scss';
 
 const Hero = props => {
   const { name, imageList } = props.authors[0];
@@ -17,7 +17,7 @@ const Hero = props => {
       <div className="mainpic__author-container">
         <img
           src={image1x}
-          srcSet={image2x + " 2x," + image3x + "3x"}
+          srcSet={image2x + ' 2x,' + image3x + '3x'}
           alt="tag"
           className="mainpic__author-container__tag"
         />

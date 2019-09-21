@@ -1,5 +1,5 @@
-import React, { Fragment } from "react";
-import ImageSetBlock from "./ImageSetBlock";
+import React, { Fragment } from 'react';
+import ImageSetBlock from './ImageSetBlock';
 
 const ImageSetBlocks = props => {
   const imageBlockContents = props.imageBlockContents;

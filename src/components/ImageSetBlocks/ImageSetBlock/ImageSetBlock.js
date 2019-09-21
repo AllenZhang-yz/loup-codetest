@@ -1,6 +1,6 @@
-import React from "react";
-import parse from "html-react-parser";
-import "./ImageSetBlock.scss";
+import React from 'react';
+import parse from 'html-react-parser';
+import './ImageSetBlock.scss';
 
 const ImageSetBlock = props => {
   const imageBlockContent = props.imageBlockContent;

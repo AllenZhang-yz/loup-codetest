@@ -1,1 +1,1 @@
-export { default } from "./AudioPic";
+export { default } from './AudioPic';

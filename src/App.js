@@ -1,18 +1,19 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import React, { Component, Fragment } from "react";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import AudioPic from "./components/AudioPic";
-import Summary from "./components/Summary";
-import TextBlocks from "./components/TextBlocks";
-import ImageSetVBlocks from "./components/ImageSetBlocks";
-import { userService } from "./services/user.service";
+import React, { Component, Fragment } from 'react';
+import { Loader, Dimmer } from 'semantic-ui-react';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import AudioPic from './components/AudioPic';
+import Summary from './components/Summary';
+import TextBlocks from './components/TextBlocks';
+import ImageSetVBlocks from './components/ImageSetBlocks';
+import { userService } from './services/user.service';
 
 class App extends Component {
   state = {
     authors: [],
-    title: "",
-    summary: "",
+    title: '',
+    summary: '',
     textBlockContents: [],
     imageBlockContents: [],
     isLoading: true,
@@ -47,9 +48,13 @@ class App extends Component {
   }
 
   render() {
-    let page = <p style={{ textAlign: "center" }}>Something went wrong!</p>;
+    let page = <p style={{ textAlign: 'center' }}>Something went wrong!</p>;
     if (this.state.isLoading) {
-      page = <div>Loading...</div>;
+      page = (
+        <Dimmer active>
+          <Loader>Loading</Loader>
+        </Dimmer>
+      );
     }
     if (!this.state.isLoading && !this.state.err) {
       page = (

@@ -1,5 +1,5 @@
-import React, { Fragment } from "react";
-import TextBlock from "./TextBlock";
+import React, { Fragment } from 'react';
+import TextBlock from './TextBlock';
 
 const TextBlocks = props => {
   const textBlockContents = props.textBlockContents;

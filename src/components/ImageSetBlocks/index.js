@@ -1,1 +1,1 @@
-export { default } from "./ImageSetBlocks";
+export { default } from './ImageSetBlocks';

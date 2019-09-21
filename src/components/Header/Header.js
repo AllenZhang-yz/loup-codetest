@@ -1,8 +1,8 @@
-import React from "react";
-import "./Header.scss";
-import { ReactComponent as AddToFav } from "../../assets/svg/mobile-dark-header.svg";
-import { ReactComponent as NavBurger } from "../../assets/svg/burger.svg";
-import { ReactComponent as HemsWorthLogo } from "../../assets/svg/hemsworthlogo.svg";
+import React from 'react';
+import './Header.scss';
+import { ReactComponent as AddToFav } from '../../assets/svg/mobile-dark-header.svg';
+import { ReactComponent as NavBurger } from '../../assets/svg/burger.svg';
+import { ReactComponent as HemsWorthLogo } from '../../assets/svg/hemsworthlogo.svg';
 
 const header = () => (
   <div className="nav">

@@ -1,6 +1,6 @@
-import React from "react";
-import parse from "html-react-parser";
-import "./TextBlock.scss";
+import React from 'react';
+import parse from 'html-react-parser';
+import './TextBlock.scss';
 
 // const TextBlock = props => <div className="textblock">{props.children}</div>;
 const TextBlock = props => {
