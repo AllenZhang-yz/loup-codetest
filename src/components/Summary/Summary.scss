@@ -1,0 +1,14 @@
+.summary {
+  margin: 48px 4% 30px 4%;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  line-height: 28px;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  .summary {
+    margin: 48px 10% 30px 10%;
+    padding: 0 34px;
+  }
+}
