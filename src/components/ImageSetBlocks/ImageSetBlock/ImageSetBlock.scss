@@ -1,12 +1,29 @@
 .imagesetblock {
   width: 100%;
+  text-align: center;
   &__image {
     margin-bottom: 25px;
     width: 100%;
   }
+
   &__summary {
+    text-align: left;
     margin: 25px 4% 50px 4%;
     font-size: 17px;
     line-height: 28px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .imagesetblock {
+    &__image {
+      width: 70%;
+      margin-top: 25px;
+    }
+
+    &__summary {
+      width: 70%;
+      margin: 0 auto;
+    }
   }
 }

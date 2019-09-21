@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import parse from "html-react-parser";
 import "./TextBlock.scss";
 
@@ -6,10 +6,14 @@ import "./TextBlock.scss";
 const TextBlock = props => {
   const textBlockContent = props.textBlockContent;
   return (
-    <Fragment>
-      <div className="images-by">images by: extra caption</div>
-      <div className="textblock">{parse(textBlockContent)}</div>
-    </Fragment>
+    <div className="textblock-container">
+      <div className="textblock-container__images-by">
+        images by: extra caption
+      </div>
+      <div className="textblock-container__textblock">
+        {parse(textBlockContent)}
+      </div>
+    </div>
   );
 };
 
