@@ -1,3 +1,5 @@
+@import '../../../utils/utils.scss';
+
 .textblock-container {
   width: 100%;
 
@@ -5,9 +7,9 @@
     text-transform: uppercase;
     font-size: 15px;
     font-family: 'PT Serif', serif;
-    color: #626262;
-    border-top: 1px solid #e3e2de;
-    border-bottom: 1px solid #e3e2de;
+    color: $grey-3;
+    border-top: 1px solid $grey-4;
+    border-bottom: 1px solid $grey-4;
     width: 92%;
     display: inline-block;
     margin: 10px 0;
@@ -21,7 +23,7 @@
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: $min-width) {
   .textblock-container {
     text-align: center;
 

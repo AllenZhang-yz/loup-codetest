@@ -1,3 +1,5 @@
+@import '../../utils/utils.scss';
+
 .mainpic {
   background-image: url('../../assets/image/mainpic.jpg');
   background-image: image-set(
@@ -8,7 +10,7 @@
   height: 500px;
   width: 100%;
   font-family: 'PT Sans Narrow', sans-serif;
-  color: #ffffff;
+  color: $white;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -72,7 +74,7 @@
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: $min-width) {
   .mainpic {
     background-image: url('../../assets/image/mainpic_desktop.jpg');
     background-image: image-set(

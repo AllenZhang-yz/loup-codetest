@@ -1,3 +1,5 @@
+@import '../../utils/utils.scss';
+
 .summary {
   margin: 48px 4% 30px 4%;
   font-family: 'PT Serif', serif;
@@ -6,7 +8,7 @@
   font-size: 20px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: $min-width) {
   .summary {
     margin: 48px 15% 30px 15%;
   }

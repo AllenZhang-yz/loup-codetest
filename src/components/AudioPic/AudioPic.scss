@@ -1,3 +1,5 @@
+@import '../../utils/utils.scss';
+
 .audio-container {
   width: 100%;
   position: relative;
@@ -18,7 +20,7 @@
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: $min-width) {
   .audio-container {
     text-align: center;
 
@@ -34,9 +36,9 @@
       display: inline-block;
       width: 80%;
       margin-top: 20px;
-      border: 1px solid #e8eaed;
+      border: 1px solid $grey-1;
       border-radius: 8px;
-      box-shadow: 3px 3px 3px #d0d4d9;
+      box-shadow: 3px 3px 3px $grey-2;
     }
   }
 }

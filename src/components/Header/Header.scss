@@ -1,6 +1,8 @@
+@import '../../utils/utils.scss';
+
 .nav {
   display: flex;
-  background-color: #171c21;
+  background-color: $black-1;
   min-width: 375px;
   height: 64px;
   justify-content: space-between;
@@ -16,7 +18,7 @@
     margin-left: 24px;
     line-height: 1.69;
     letter-spacing: 0.95px;
-    color: #ffffff;
+    color: $white;
     text-transform: uppercase;
   }
 
@@ -36,7 +38,7 @@
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: $min-width) {
   .nav {
     height: 90px;
     &__title {
