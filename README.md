@@ -22,7 +22,7 @@ Please visit https://loup-codetest.firebaseapp.com to check.
 1. This website is responsive (set breakpoint to the width of 600px).
 2. All the JSON data are fetched from firebase.
 3. Conduct unit tests for each UI component using Jest and Enzyme.
-4. I used my own font-family and ajusted something like margin, padding and font-size based on my own assumptions, but I tried my best to stick to the original design.
+4. I used my own font-family and ajusted something like margin, padding and font-size based on my own assumptions. In some places if I used the exact value of the design, I found it was not good-looking, but I tried my best to stick to the original design.
 
 ### Process of finishing this project
 
