@@ -1,8 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Hero.scss';
+import { ReactComponent as AddToFav } from '../../assets/svg/mobile-dark-header.svg';
 
 const Hero = props => {
-  const { name, imageList } = props.authors[0];
+  const author = props.authors[0];
+  const { name, imageList } = author;
   const title = props.title;
   const image1x = imageList.square1x.url;
   const image2x = imageList.square2x.url;
@@ -13,7 +16,9 @@ const Hero = props => {
       <div className="mainpic__title">{title}</div>
       <p className="mainpic__para">
         The breakfast collection that you must get into this spring
+        <AddToFav className="mainpic__para__addtofav" />
       </p>
+
       <div className="mainpic__author-container">
         <img
           src={image1x}
@@ -28,6 +33,11 @@ const Hero = props => {
       </div>
     </div>
   );
+};
+
+Hero.propTypes = {
+  authors: PropTypes.array,
+  title: PropTypes.string
 };
 
 export default Hero;

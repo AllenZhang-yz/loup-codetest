@@ -39,6 +39,10 @@
     text-transform: uppercase;
     width: 327px;
     height: 117px;
+
+    &__addtofav {
+      display: none;
+    }
   }
 
   &__author-container {
@@ -92,6 +96,13 @@
       font-size: 40px;
       line-height: 50px;
       letter-spacing: 1.5px;
+
+      &__addtofav {
+        display: inline-block;
+        width: 36px;
+        height: 37px;
+        margin-left: 10px;
+      }
     }
 
     &__author-container {

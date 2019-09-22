@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import PropTypes from 'prop-types';
 import TextBlock from './TextBlock';
 
 const TextBlocks = props => {
@@ -13,6 +14,10 @@ const TextBlocks = props => {
       ))}
     </Fragment>
   );
+};
+
+TextBlocks.propTypes = {
+  textBlockContents: PropTypes.array
 };
 
 export default TextBlocks;

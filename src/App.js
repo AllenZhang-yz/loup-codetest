@@ -6,7 +6,7 @@ import Hero from './components/Hero';
 import AudioPic from './components/AudioPic';
 import Summary from './components/Summary';
 import TextBlocks from './components/TextBlocks';
-import ImageSetVBlocks from './components/ImageSetBlocks';
+import ImageSetBlocks from './components/ImageSetBlocks';
 import { userService } from './services/user.service';
 
 class App extends Component {
@@ -25,7 +25,6 @@ class App extends Component {
       .getData()
       .then(res => {
         const { authors, blocks, title, summary } = res.data.article;
-        console.log(blocks);
         const textBlockContents = blocks
           .filter(block => block.blockTypeId === 0)
           .map(block => block.content);
@@ -64,7 +63,7 @@ class App extends Component {
           <AudioPic />
           <Summary>{this.state.summary}</Summary>
           <TextBlocks textBlockContents={this.state.textBlockContents} />
-          <ImageSetVBlocks imageBlockContents={this.state.imageBlockContents} />
+          <ImageSetBlocks imageBlockContents={this.state.imageBlockContents} />
         </div>
       );
     }

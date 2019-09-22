@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import PropTypes from 'prop-types';
 import ImageSetBlock from './ImageSetBlock';
 
 const ImageSetBlocks = props => {
@@ -13,6 +14,10 @@ const ImageSetBlocks = props => {
       ))}
     </Fragment>
   );
+};
+
+ImageSetBlocks.propTypes = {
+  imageBlockContents: PropTypes.array
 };
 
 export default ImageSetBlocks;

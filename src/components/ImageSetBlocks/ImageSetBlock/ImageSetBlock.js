@@ -1,5 +1,6 @@
 import React from 'react';
 import parse from 'html-react-parser';
+import PropTypes from 'prop-types';
 import './ImageSetBlock.scss';
 
 const ImageSetBlock = props => {
@@ -17,6 +18,10 @@ const ImageSetBlock = props => {
       <div className="imagesetblock__summary">{parse(summary)}</div>
     </div>
   );
+};
+
+ImageSetBlock.propTypes = {
+  imageBlockContent: PropTypes.array
 };
 
 export default ImageSetBlock;

@@ -1,0 +1,141 @@
+{
+  "messages": [],
+  "result": {
+    "article": {
+      "authors": [
+        {
+          "isPrimary": true,
+          "authorId": 4738,
+          "name": "Centr Team",
+          "shortName": "Centr",
+          "imageList": {
+            "square1x": {
+              "url": "https://cdn.centr.com/content/5000/4738/images/square1x-cen-author-pic-the-expertsv2.jpg"
+            },
+            "square2x": {
+              "url": "https://cdn.centr.com/content/5000/4738/images/square2x-cen-author-pic-the-expertsv2.jpg"
+            },
+            "square3x": {
+              "url": "https://cdn.centr.com/content/5000/4738/images/square3x-cen-author-pic-the-expertsv2.jpg"
+            }
+          }
+        }
+      ],
+      "headerStyle": 0,
+      "introText": "",
+      "media": [],
+      "blocks": [
+        {
+          "blockTypeId": 0,
+          "content": "<p>In a world full of quick fixes and weight-loss fads, intermittent fasting is showing some staying power. Even those in the strength training world are getting a bit curious, so we want to know: does intermittent fasting help build muscle?</p>\n\n<p>Most studies on intermittent fasting (or IF) have looked into its effect on weight loss, where it can be an effective tool for getting past a plateau. In the limited study into IF paired with regular resistance training, results suggest that while someone on IF may lose more weight than someone on a regular diet, <a href=\"https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-016-1044-0\" target=\"_blank\">their muscle gains and maintenance will be largely identical</a>. </p>\n\n<p>According to accredited sports dietician Lisa Middleton, committing to IF or any restrictive diet mostly comes down to whether it can work for you. Before trying it, here are four things you should know:</p>\n\n\n<p><strong>1. You still need to train at full capacity</strong><br>\nIf your goal is to build muscle, sticking with IF can be tricky. Muscle growth requires an excess of calories and a good amount of healthy protein. First problem: Cramming enough calories into a restricted window can make you feel like you’re constantly eating, which is not as fun as it may sound. Second problem: if you’re not getting enough calories, your workout performance can slip – meaning you’ll be less effective at building muscle and strength.</p>\n<p>“Unless you’re primarily working out to lose fat, you should at least have a snack of protein and carbs 1-2 hours before you exercise,” Lisa says. “Plus, trying to fit all your daily protein into one or two meals isn’t as effective as spacing it out over a longer period. Ideally, eat food containing at least 25-30 grams of high-quality protein once every few hours to fuel muscle growth.”</p>"
+        },
+        {
+          "blockTypeId": 1,
+          "displayId": 0,
+          "content": [
+            {
+              "linkedContentTypeId": 1,
+              "linkedContentId": 7754,
+              "imageList": {
+                "landscapedesktop1x": {
+                  "url": "https://cdn.centr.com/content/9000/8593/images/landscapedesktop1x-2d993e51890f4c4f3ccaba351fe75cb3-loup-cen-salmonroastedvegetabletraybake-43.jpg"
+                },
+                "landscapewidedesktop1x": {
+                  "url": "https://cdn.centr.com/content/9000/8593/images/landscapewidedesktop1x-177628cf310abb1ec94168e616c50506-loup-cen-salmonroastedvegetabletraybake-169.jpg"
+                },
+                "landscapewidedesktop2x": {
+                  "url": "https://cdn.centr.com/content/9000/8593/images/landscapewidedesktop2x-d323743aac2a49d1f881e48b60b6fa23-loup-cen-salmonroastedvegetabletraybake-169.jpg"
+                },
+                "landscapetablet1x": {
+                  "url": "https://cdn.centr.com/content/9000/8593/images/landscapetablet1x-d44b0805e873b902bb68443157817712-loup-cen-salmonroastedvegetabletraybake-43.jpg"
+                },
+                "landscapetablet2x": {
+                  "url": "https://cdn.centr.com/content/9000/8593/images/landscapetablet2x-e81d00e0933d8f89b2d9845f00645a03-loup-cen-salmonroastedvegetabletraybake-43.jpg"
+                },
+                "landscapemobile1x": {
+                  "url": "https://cdn.centr.com/content/9000/8593/images/landscapemobile1x-4fd0fe35305b1b8b88b1c4530e33543c-loup-cen-salmonroastedvegetabletraybake-43.jpg"
+                },
+                "landscapemobile2x": {
+                  "url": "https://cdn.centr.com/content/9000/8593/images/landscapemobile2x-aebd3cbd298cd3b7d1fa330994d80556-loup-cen-salmonroastedvegetabletraybake-43.jpg"
+                },
+                "landscapemobile3x": {
+                  "url": "https://cdn.centr.com/content/9000/8593/images/landscapemobile3x-69d073662fd83af11cf286801cb0bc1a-loup-cen-salmonroastedvegetabletraybake-43.jpg"
+                }
+              },
+              "renderTypeId": 0,
+              "imageReference": "",
+              "url": "/recipe/7754/",
+              "title": "",
+              "summary": "<em>Our <a href=\"/recipe/7754/\">Salmon & Roasted Vegetable Tray Bake</a> is a protein-packed post-workout dinner you can basically just throw in the oven.</em><br><br>\n\n<p><strong>2. There are different ways to do IF</strong><br>\nYou can’t just cut out dinner and call it ‘intermittent fasting’. IF requires a structured approach and commitment. That’s where the numbers come in. In 5:2 mode, you eat your regular intake for five days of the week, then significantly restrict your caloric intake for two non-consecutive days. 16:8, also known as “Leangains”, is the mode getting the most attention from muscle builders. In 16:8, you do all your daily eating (your standard daily caloric intake) within an eight-hour window, then fast for the remaining 16 hours. The new kid on the block is the Fast 800, where for two weeks you restrict yourself to 800 calories per day and consume those calories within an 8-12 hour window, in pursuit of quick fat loss.</p>\n\n<p><strong>3. If it doesn’t fit your lifestyle, it won’t work</strong><br>\nThink about your work/life schedule: can you time your training to capitalize on your eating window while working a full 9 to 5 at the office, squeeze in the post-workout protein you need to consolidate gains, and make time for dinner with your partner? That kind of precision is tough to maintain even when you’re not restricted to a small window of time.</p>"
+            }
+          ]
+        },
+        {
+          "blockTypeId": 3,
+          "text": "[If] you don’t eat your first meal until noon, you won’t be feeding yourself for optimal recovery. You could even lose muscle mass.”",
+          "attribution": ""
+        },
+        {
+          "blockTypeId": 0,
+          "content": "<p>“The key is finding the calorie intake that supports your fitness goals and eating in a way that suits your lifestyle,” Lisa says. “If you train best first thing in the morning, but you don’t eat your first meal until noon, you won’t be feeding yourself for optimal recovery. You could even lose muscle mass.”</p>\n<p><strong>4. You can still gain fat</strong><br>\nIF will only be effective if you’re still eating the right foods. If you cram that window full of high-cal, high-fat, high-sugar junk food, you will bulk up... but with fat, not lean muscle mass. </p>\n<p>“Not all calories are created equal,” Lisa says. “For muscle gain, quality of protein is key, and many overly processed foods lack the right type. Your typical take-out meal will also likely contain higher levels of fat, salt and sugar than are ideal for good health and body composition goals, and this can increase body fat levels.”</p>\n<p>So, if you’re considering IF because you think the diet lets you double down on pizza while staying on track with fitness goals, think again. You’ll still need to eat the same healthy foods after all. </p>"
+        }
+      ],
+      "id": "2_8593",
+      "contentId": 8593,
+      "contentType": 7,
+      "title": "Can you build muscle while intermittently fasting?",
+      "summary": "Intermittent Fasting gets a lot of attention for weight loss, but is it useful for muscle-building?",
+      "tags": [
+        { "id": 131, "catId": 15, "name": "Normal" },
+        { "id": 162, "catId": 17, "name": "Eat" },
+        { "id": 160, "catId": 17, "name": "Train" },
+        { "id": 156, "catId": 20, "name": "Blog" }
+      ],
+      "url": null,
+      "urlPartial": "can-you-build-muscle-while-intermittent-fasting-if-diet-fast-weight-loss-building-",
+      "urlDomain": null,
+      "imageList": {
+        "landscape32medium1x": {
+          "url": "https://cdn.centr.com/content/9000/8593/images/landscape32medium1x-if-muscle-32.jpg"
+        },
+        "landscape32medium2x": {
+          "url": "https://cdn.centr.com/content/9000/8593/images/landscape32medium2x-if-muscle-32.jpg"
+        },
+        "landscape32medium3x": {
+          "url": "https://cdn.centr.com/content/9000/8593/images/landscape32medium3x-if-muscle-32.jpg"
+        },
+        "landscapemobile1x": {
+          "url": "https://cdn.centr.com/content/9000/8593/images/landscapemobile1x-if-muscle-43.jpg"
+        },
+        "landscapemobile2x": {
+          "url": "https://cdn.centr.com/content/9000/8593/images/landscapemobile2x-if-muscle-43.jpg"
+        },
+        "landscapemobile3x": {
+          "url": "https://cdn.centr.com/content/9000/8593/images/landscapemobile3x-if-muscle-43.jpg"
+        },
+        "landscapedesktop2x": {
+          "url": "https://cdn.centr.com/content/9000/8593/images/landscapedesktop2x-if-muscle-43.jpg"
+        },
+        "landscapewidemobile1x": {
+          "url": "https://cdn.centr.com/content/9000/8593/images/landscapewidemobile1x-if-muscle-169.jpg"
+        },
+        "landscapewidemobile2x": {
+          "url": "https://cdn.centr.com/content/9000/8593/images/landscapewidemobile2x-if-muscle-169.jpg"
+        },
+        "landscapewidemobile3x": {
+          "url": "https://cdn.centr.com/content/9000/8593/images/landscapewidemobile3x-if-muscle-169.jpg"
+        }
+      }
+    },
+    "validate": {
+      "activityId": 0,
+      "title": null,
+      "isCompletable": false,
+      "isCompleted": false,
+      "isSwapped": false,
+      "status": 0,
+      "activityDate": "0001-01-01T00:00:00+00:00",
+      "swapTypeId": 0
+    }
+  }
+}
