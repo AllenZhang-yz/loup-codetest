@@ -26,7 +26,7 @@ Please visit https://loup-codetest.firebaseapp.com to check.
 
 ### Process of finishing this project
 
-Breakdown the page into decoupled components -> Finish the static version -> Test -> Add state locally -> Test -> Get state from remote firebase API asynchronously -> Test
+Breakdown the page into decoupled components -> Finish the mobile static version-> Test-> Finish the desktop static version -> Add state locally -> Test -> Get state from remote firebase API asynchronously -> Test
 
 ### Skills used in this App
 
