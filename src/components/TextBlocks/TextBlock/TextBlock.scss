@@ -2,7 +2,6 @@
 
 .textblock-container {
   width: 100%;
-  margin-bottom: 45px;
 
   &__images-by {
     text-transform: uppercase;
@@ -11,7 +10,7 @@
     color: $grey-3;
     border-top: 1px solid $grey-4;
     border-bottom: 1px solid $grey-4;
-    width: 92%;
+    width: 100%;
     display: inline-block;
     margin: 10px 0;
     padding: 12.5px 4%;
@@ -27,6 +26,7 @@
 @media screen and (min-width: $min-width) {
   .textblock-container {
     text-align: center;
+    margin-bottom: 45px;
 
     &__images-by {
       width: 70%;
