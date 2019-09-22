@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import parse from 'html-react-parser';
 import './TextBlock.scss';
 
@@ -15,10 +14,6 @@ const TextBlock = props => {
       </div>
     </div>
   );
-};
-
-TextBlock.propTypes = {
-  textBlockContent: PropTypes.string
 };
 
 export default TextBlock;

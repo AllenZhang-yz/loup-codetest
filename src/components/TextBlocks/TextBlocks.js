@@ -7,10 +7,7 @@ const TextBlocks = props => {
   return (
     <Fragment>
       {textBlockContents.map(textBlockContent => (
-        <TextBlock
-          key={textBlockContent.slice(0, 5)}
-          textBlockContent={textBlockContent}
-        />
+        <TextBlock key={textBlockContent} textBlockContent={textBlockContent} />
       ))}
     </Fragment>
   );

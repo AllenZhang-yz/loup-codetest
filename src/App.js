@@ -47,7 +47,7 @@ class App extends Component {
   }
 
   render() {
-    let page = <p style={{ textAlign: 'center' }}>Something went wrong!</p>;
+    let page = <p>Something went wrong!</p>;
     if (this.state.isLoading) {
       page = (
         <Dimmer active>
