@@ -10,15 +10,18 @@ import ImageSetBlocks from './components/ImageSetBlocks';
 import { userService } from './services/user.service';
 
 class App extends Component {
-  state = {
-    authors: [],
-    title: '',
-    summary: '',
-    textBlockContents: [],
-    imageBlockContents: [],
-    isLoading: true,
-    err: false
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      authors: [],
+      title: '',
+      summary: '',
+      textBlockContents: [],
+      imageBlockContents: [],
+      isLoading: true,
+      err: false
+    };
+  }
 
   componentDidMount() {
     userService
