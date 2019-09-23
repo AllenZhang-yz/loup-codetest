@@ -6,8 +6,8 @@ const TextBlocks = props => {
   const textBlockContents = props.textBlockContents;
   return (
     <Fragment>
-      {textBlockContents.map(textBlockContent => (
-        <TextBlock key={textBlockContent} textBlockContent={textBlockContent} />
+      {textBlockContents.map((textBlockContent, index) => (
+        <TextBlock key={index} textBlockContent={textBlockContent} />
       ))}
     </Fragment>
   );
